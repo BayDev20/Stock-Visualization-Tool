@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Analysis Tool</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Stock Analysis Tool</h1>
+        </header>
+        <main>
+            <form action="/" method="post">
+                <input type="text" name="ticker" placeholder="Enter Stock Ticker" required>
+                <button type="submit">Show Chart</button>
+            </form>
+        </main>
+    </div>
+</body>
+</html>
