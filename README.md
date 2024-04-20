@@ -13,4 +13,36 @@ This Python script leverages the `yfinance` library to fetch and display stock d
 
 Before you begin, ensure you have the following:
 - Python 3.x installed on your system.
-- `yfinance` and `matplotlib` libraries installed.
+- `yfinance`, `flask`, and `matplotlib` libraries installed.
+
+## Step 1: Clone the Repository
+
+Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/yourusername/stock-analysis-tool.git
+cd stock-analysis-tool
+```
+## Step 2: Set Up a Virtual Environment (Optional but Recommended)
+It's a good practice to use a virtual environment to manage dependencies:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+```
+## Step 3: Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+## Step 4: Run the Application
+Start the Flask server:
+```bash
+python stocks.py
+```
+## Step 5: Access the Application
+Open a web browser and go to http://127.0.0.1:5000 to start using the application.
+## Usage
+To use the application, follow these steps:
+
+Enter a Stock Ticker: Input the symbol of the stock you want to analyze (e.g., AAPL, GOOGL, MSFT) in the text field.
+Submit: Click the "Show Chart" button to display the stock's price graph and RSI chart.
+View Results: The results will display directly on the web page with options to analyze another stock.
