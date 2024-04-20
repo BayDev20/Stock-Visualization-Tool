@@ -8,8 +8,9 @@ This Python script leverages the `yfinance` library to fetch and display stock d
 
 ## Features
 
-- Fetch and display closing prices and trading volume.
+- Fetch and display closing prices.
 - Calculate and visualize daily returns.
+- Visualize relative Strength index.
 - Based on key trading indicators: Moving Averages, MACD, RSI.
 - Plot data using Matplotlib for clear, informative visualizations.
 
@@ -53,3 +54,12 @@ To use the application, follow these steps:
 Enter a Stock Ticker: Input the symbol of the stock you want to analyze (e.g., AAPL, GOOGL, MSFT) in the text field.
 Submit: Click the "Show Chart" button to display the stock's price graph and RSI chart.
 View Results: The results will display directly on the web page with options to analyze another stock.
+
+### *Disclaimer
+This Stock Analysis Tool is provided for informational and educational purposes only. It is designed for fun and to help users learn more about stock market trends through visual analysis. It is not intended for financial investment or trading purposes.
+
+The data and information provided by this tool do not constitute financial advice, and users should not make any investment decision based solely on the output from this tool. All users should conduct their own research and consider seeking advice from independent financial advisors before making any investment decisions.
+
+By using this tool, you acknowledge and agree that any reliance on or use of the information available through this tool is entirely at your own risk. The developer or provider of this tool shall not be liable for any losses or damages arising from the use of this tool.
+
+
