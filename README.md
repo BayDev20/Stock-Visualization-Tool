@@ -1,6 +1,6 @@
 # Stock Data Visualization Tool
 
-This Python script leverages the `yfinance` library to fetch and display stock data after a user types in a ticker such as AAPL or BTC-USD. It includes price movements and volume along with a buy/sell indicator.* Inicator uses key financial indicators like moving averages, MACD (Moving Average Convergence Divergence), and RSI (Relative Strength Index) to determine signals. Designed for financial analysts and hobbyists alike, this tool provides insightful visualizations to aid in stock market analysis.
+This Python script leverages the `yfinance` library to fetch and display stock data after a user types in a ticker such as AAPL or BTC-USD. It includes price movements and volume along with a buy/sell indicator.* Inicator uses key financial indicators like the RSI (Relative Strength Index) to determine signals. Designed for financial analysts and hobbyists alike, this tool provides insightful visualizations to aid in stock market analysis.
 
 ![image](https://github.com/BayDev20/Stock-Visualization-Tool/assets/152105436/4d82c2fc-7eff-4230-923e-8768299e6fae)
 
